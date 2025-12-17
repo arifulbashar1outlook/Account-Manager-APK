@@ -72,7 +72,7 @@ const ConfigModal: React.FC<ConfigModalProps> = ({ isOpen, onClose }) => {
                 <div>
                     <h3 className="text-sm font-bold text-gray-700 dark:text-gray-300 mb-2 uppercase tracking-wider">Step 1: Deploy App Script</h3>
                     <p className="text-xs text-gray-500 dark:text-gray-400 mb-3 leading-relaxed">
-                        Create a Google Sheet, go to <b>Extensions > Apps Script</b>, paste the code below, and <b>Deploy as Web App</b> (Set access to "Anyone").
+                        Create a Google Sheet, go to <b>Extensions &gt; Apps Script</b>, paste the code below, and <b>Deploy as Web App</b> (Set access to "Anyone").
                     </p>
                     <div className="relative group">
                         <pre className="bg-gray-950 text-emerald-400 p-4 rounded-xl text-[10px] overflow-x-auto h-32 border border-gray-800">
